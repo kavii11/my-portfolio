@@ -6,11 +6,6 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contacts';
 import NotFound from './pages/NotFound';
 import Navbar from './components/Navbar';
-import React from 'react';
-import Frontsectionone from './components/Frontsectionone';
-import Work from './components/Work';
-import Footer from './components/Footer';
-import Getintouch from './components/Getintouch';
 
 
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import svg from '../assets/images/react.svg';
 import js from '../assets/images/js-.png';
 import html from '../assets/images/html.svg';       

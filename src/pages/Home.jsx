@@ -1,4 +1,3 @@
-import React from 'react';
 import Frontsectionone from '../components/Frontsectionone';
 import Work from '../components/Work';
 import Footer from '../components/Footer';

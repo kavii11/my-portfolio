@@ -1,4 +1,3 @@
-import React from 'react';
 import img from '../assets/images/linkedin (3).png';
 import img1 from '../assets/images/linkedin (4).png';
 import c from '../assets/images/c.png';
