@@ -29,7 +29,8 @@ export default function Sectionone ()  {
         <div className="divider"></div>
         <div className="rotate-slider">
           <div className="svg-icons">
-            <marquee behavior="" direction="">
+            <div className="marquee">
+              <div className="marquee-content">
               <img src={svg} alt="react svg file" />
               <img src={js} alt="js png file" />
               <img src={html} alt="html svg file" />
@@ -38,21 +39,19 @@ export default function Sectionone ()  {
               <img src={bootstrap} alt="bootstrap svg" />
               <img src={js1} alt="js svg" />
               <img src={coding} alt="coding svg" />
-            </marquee>
+            </div>
+            </div>
+            </div>
           </div>
         </div>
-        
-      </div>
+      
       <div className="svg-icons2"> 
       <DotLottieReact
       src="https://lottie.host/8cbb977a-ab3d-422b-9746-81169fd1a1d8/ePpKZlCHMH.lottie"
       loop
       autoplay
     />
-      <svg className="svg1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2L2 7h20L12 2z"/><path d="M2 7v10l10 5 10-5V7H2z"/></svg>
-      <svg className="svg2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2L2 7h20L12 2z"/><path d="M2 7v10l10 5 10-5V7H2z"/></svg>    
-      <svg className="svg1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2L2 7h20L12 2z"/><path d="M2 7v10l10 5 10-5V7H2z"/></svg>
-
+      
     </div>
     </>
     );
