@@ -503,8 +503,6 @@ width: 28%;
   overflow: hidden;
   white-space: nowrap;
   box-sizing: border-box;
-  background: #111; /* optional styling */
-  color: white;     /* optional styling */
 }
 
 .marquee-content {
