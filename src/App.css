@@ -520,3 +520,94 @@ width: 28%;
   }
 }
 
+
+
+.parent {
+    display: grid;
+    
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+    margin: 30px 30px 0px 30px;
+    height: 100vh;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: #fff;
+    display: flex ;
+    flex-direction: column;
+     font-family: "Merriweather", serif;
+    height: 8vh;
+    align-items: center;
+    font-weight: 600;
+    
+    background-color: #1b18df1d;
+}
+.skills-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: aliceblue;
+    font-size: 18px;
+    
+}   
+.skills-list h5 {
+    font-size: 24px;
+    margin: 10px 0px 0px 10px;
+    color: #4cc9fe;
+} 
+
+.skills-list ul li{
+  line-height: 22px;
+    
+}
+
+.div1 {
+    grid-row: span 4 / span 4;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #4cc9fe12;
+}
+
+.div2 {
+    grid-column: span 4 / span 4;
+    grid-row: span 4 / span 4;
+        border-radius: 8px;
+
+    background-color: #4CC9FE;
+}
+       
+.skills-container {
+  overflow-y: auto;
+  height: 65vh;
+  scroll-behavior: smooth; ;
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 10px 0px;
+}
+
+.skills-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.skills-container::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+.skills-container::-webkit-scrollbar-thumb {
+  background: #888888b9;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.skills-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+        
+
