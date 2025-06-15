@@ -24,58 +24,58 @@ export default function Projects() {
                 <h5>Languages</h5>
                 <ul>
                   <li>
-                    <img src={Html} alt="react image" />
+                    <img src={Html} alt="html" />
                     HTML
                   </li>
                   <li>
-                    <img src={Css} alt="react image" />
+                    <img src={Css} alt="css" />
                     CSS
                   </li>
                   <li>
-                    <img src={Js} alt="react image" />
+                    <img src={Js} alt="javascript" />
                     JavaScript
                   </li>
                   <li>
-                    <img src={Ts} alt="react image" />
+                    <img src={Ts} alt="typescript" />
                     TypeScript
                   </li>
                 </ul>
                 <h5>Libraries</h5>
                 <ul>
                   <li>
-                    <img src={react} alt="react image" />
+                    <img src={react} alt="react" />
                     React
                   </li>
                   <li>
-                    <img src={react_native} alt="react image" />
+                    <img src={react_native} alt="react native" />
                     React Native (experience)
                   </li>
                   <li>
-                    <img src={Api} alt="react image" />
+                    <img src={Api} alt="context api" />
                     Context API
                   </li>
                 </ul>
                 <h5>Frameworks & Tools</h5>
                 <ul>
                   <li>
-                    <img src={Tailwind} alt="react image" />
+                    <img src={Tailwind} alt="tailwind" />
                     Tailwind CSS
                   </li>
                   <li>
-                    <img src={Shadcn} alt="react image" />
+                    <img src={Shadcn} alt="shadcn" />
                     shadcn/ui
                   </li>
                   <li>
-                    <img src={Node_js} alt="react image" />
+                    <img src={Node_js} alt="node js" />
                     Node.js
                   </li>
 
                   <li>
-                    <img src={Github} alt="react image" />
+                    <img src={Github} alt="github" />
                     GitHub
                   </li>
                   <li>
-                    <img src={Wordpress} alt="react image" />
+                    <img src={Wordpress} alt="wordpress" />
                     WordPress
                   </li>
                 </ul>
